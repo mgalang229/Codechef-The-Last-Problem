@@ -38,7 +38,7 @@ int main() {
 		}
 		for (int i = c1 + 1; i <= c2; i++) {
 			// calculate the sum of values from the ('c1' + 1)-th (skip the 
-			// first column (since it was added above) to the 'c2'-th column
+			// first column since it was added above) to the 'c2'-th column
 			// basically, the row must be in constant position
 			sum += dp[r2][i];
 		}
